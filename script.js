@@ -113,12 +113,20 @@ const daysData = {
     memory: "This photo is too cute. I'm happy I got to spend the last first day of school together and I'm excited for all of the other firsts that are yet to come.",
     images: ["images/day12.jpg"],
   },
-  "2026-01-13": {
+  "2026-01-16": {
     note: "hello",
     memory: "hello. you make me happy and i love you and i can't wait for the next time i see you. it's a privilege to feel this kind of love and all the feelings that come with it.",
-    images: ["images/day13.gif"]
+    images: ["images/day13.gif"],
+  },
+  "2026-01-13": {
+    note: "Song",
+    memory: "Tomorrow is Bruno Mars tickets day. \n\n <strong>It Will Rain</strong> by Bruno Mars fits how I feel about you. If you walk away, everyday it will rain. I hope you don't walk away. I love you.",
   },
   "2026-01-14": {
+    note: "Fighting",
+    memory: "We're currently arguing right now. It makes me sad when we fight. The only thing that I want is for you to be happy. I'm willing to work through our differences and to fight for this relationship. You mean a lot to me and I hope you know I just always want the best for you. No matter what I'll always care for you and I hope we can be happy again together soon.",
+  },
+  "2026-01-15": {
     note: "Kayaking",
     memory: "2018 and 2024",
     images: ["images/day14.jpg", "images/day141.jpg"],
