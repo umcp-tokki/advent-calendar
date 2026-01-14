@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sungjai Birthday Advent Calendar</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <link
+  href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&family=Poppins:wght@500;700&family=Raleway:wght@400;500;700&family=Shadows+Into+Light&display=swap"
+  rel="stylesheet"
+/>
+
+</head>
+<body>
+  <div class="bg">
+    <!-- floating lights / snow vibe -->
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+
+  <div class="page">
+    <header class="header">
+      <div class="top-photos">
+        <img src="images/top11.jpg">
+        <img src="images/top1.jpg" alt="">
+        <img src="images/top2.jpg" alt="">
+        <img src="images/top3.jpg" alt="">
+        <img src="images/top5.jpg" alt="">
+      </div>
+      <h1>Sungjai's Birthday Advent Calendar</h1>
+      <p class="subtitle">
+        Open everyday until your birthday!
+      </p>
+      <p class="subtitle">
+        Love Stefanie ❤
+      </p>
+    </header>
+
+    <main class="content-card">
+  <div class="calendar-layout">
+    <!-- Small winter/cartoon art column -->
+
+    <!-- Your actual calendar -->
+    <div class="calendar-column">
+      <section class="month-section">
+        <div class="month-header">
+          <span class="month-title">December ❄</span>
+        </div>
+        <div id="calendar-dec" class="calendar"></div>
+      </section>
+
+      <div class="divider"></div>
+
+      <section class="month-section">
+        <div class="month-header">
+          <span class="month-title">January ❅</span>
+        </div>
+        <div id="calendar-jan" class="calendar"></div>
+      </section>
+    </div>
+  </div>
+</main>
+
+  </div>
+
+  <!-- Modal -->
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <button id="close-modal" class="close-btn">&times;</button>
+      <h2 id="modal-title">Day</h2>
+      <p id="modal-note" class="modal-note"></p>
+      <p id="modal-memory" class="modal-memory"></p>
+      <img id="modal-image" class="modal-image" alt="" />
+      <div id="modal-gallery" class="modal-gallery"></div>
+      <video id="modal-video" class="modal-video" controls></video>
+      <p id="modal-challenge" class="modal-challenge"></p>
+      <p id="modal-coupon" class="modal-coupon"></p>
+    </div>
+  </div>
+
+  <!-- Sound -->
+  <audio id="open-sound" src="sounds/open.mp3" preload="auto"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
